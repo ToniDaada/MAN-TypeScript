@@ -1,0 +1,144 @@
+.Homecontainer{
+    width: 100%;
+}
+
+.Homecontainer .homeheader{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.Homecontainer .homeheader img{
+    height: 100%;
+    width: 100%;
+}
+
+.Homecontainer .homeimages p{
+    cursor: pointer;
+}
+
+.Homecontainer .homeimages button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.Homecontainer .hometext{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+.Homecontainer .hometext h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.Homecontainer .hometext p{
+    line-height: 20px;
+}
+.Homecontainer .homeimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.Homecontainer .homeimages .images{
+    width: 100%;
+    height: 80%;
+    margin-bottom: 20px;
+}
+
+.Homecontainer .buttoncontainer{
+    width: 35%;
+    margin: 0 auto;
+}
+.Homecontainer .homeheader {
+    width: 100%;
+    /* border: 1px solid red; */
+    
+    
+    
+
+}
+
+.Homecontainer .homeheader .homeheaderpicture{
+    background-image:url('../../assets/reusedimages/Homeimages/homeheader.jpeg');
+    /* padding: 100px; */
+    background-repeat: no-repeat;
+ 
+    background-size: 100%;
+ /* max-width:  1508px; */
+ height: 804px;
+ 
+
+
+}
+.Homecontainer .homeheader .homeheadertext{
+    padding: 40px;
+   
+    width: 70%;
+    padding-top: 200px;
+    
+  
+   
+   
+}
+.Homecontainer .homeheader .homeheadertext h1{
+ color: #ffffff;
+ font-size: 65px;
+ font-weight: 700;
+}
+
+@media screen and (max-width:1200px) {
+    .Homecontainer .homeheader .homeheaderpicture{
+        height: 500px;
+    }
+    .Homecontainer .homeheader .homeheadertext{
+        padding: 40px;
+       
+        width: 70%;
+      
+        
+      
+       
+       
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .Homecontainer .homeheader .homeheadertext h1{
+        color: #ffffff;
+        font-size: 50px;
+        font-weight: 700;
+       }
+
+}
+@media screen and (max-width:750px) {
+    .Homecontainer .homeheader .homeheadertext h1{
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 700;
+       }
+       .Homecontainer .homeimages{
+        
+        grid-template-columns: 1fr 1fr ;
+        
+    
+    }
+
+}
+    @media screen and (max-width:500px) {
+        .Homecontainer .homeheader .homeheadertext h1{
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 700;
+           }
+           .Homecontainer .homeimages{
+        
+            grid-template-columns: 1fr;
+            
+        
+        }
+
+
+    }

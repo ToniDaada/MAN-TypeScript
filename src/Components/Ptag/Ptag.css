@@ -1,0 +1,29 @@
+.sharedptag{
+
+font-size: 24px;
+font-weight: 400;
+
+text-align: center;
+color:  #2B3513;
+margin-top: 10px;
+margin-bottom: 10px;
+
+
+
+}
+
+.sharedptag.white{
+  
+font-size: 18px;
+font-weight: 400;
+
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.sharedptag.black{
+    color: #000000;
+    text-align: left;
+    font-size: 18px;
+}

@@ -1,0 +1,23 @@
+.SpecialGuestcontainer{
+    width: 100%;
+
+}
+.SpecialGuestcontainer .SpecialGuestheader{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.SpecialGuestcontainer .SpecialGuestheader img{
+    width: 100%;
+    height: 100%;
+}
+
+.SpecialGuestcontainer .SpecialGuesttext{
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 85%;
+    margin: 0 auto;
+}
+
+.SpecialGuestcontainer .SpecialGuesttext p{
+    font-size: 18px;
+}

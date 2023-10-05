@@ -1,0 +1,27 @@
+.inputlabelcontainer{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.inputlabelcontainer label{
+    font-size: 18px;
+    font-weight: 500;
+    color:#586166 ;
+    display: block;
+    text-align: left;
+    
+}
+
+.inputlabelcontainer input{
+    border: none;
+    padding: 20px;
+    width: 95%;
+    background: #FFFFFF;
+    /* gap: 10px; */
+    outline: none;
+    color: #586166;
+}
+.inputlabelcontainer input::placeholder{
+    color:#8D9396 ;
+}

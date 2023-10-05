@@ -1,0 +1,86 @@
+.Speakercontainer{
+    width: 100%;
+
+}
+.Speakercontainer .Speakerheader{
+    width: 1-0%;
+
+    margin-bottom: 50px;
+    background: #2B3513;
+    text-align: center;
+
+}
+.Speakercontainer .Speakerheader .Speakerheadercontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 50px;
+    align-items: center;
+}
+.Speakercontainer .Speakerheader .white{
+    border: 1px solid white;
+    width: 40px;
+    margin: 0 auto;
+}
+
+.Speakercontainer .Speakerheader  h3{
+    color: #ffffff;
+    font-weight: 400;
+    
+    /* width: 25%; */
+    font-size: 40px;
+    margin: 0 auto;
+    /* border-bottom: 1px solid white; */
+  
+    
+}
+.Speakercontainer .Speakerheader .Speakerheadercontainer .Speakerheadertext{
+    color: #ffffff;
+    /* font-family: Inter; */
+    width: 60%;
+    text-align: left;
+
+
+}
+.Speakercontainer .Speakerheader .Speakerheadercontainer .Speakerheadertext h1{
+   font-size: 50px;
+
+
+}
+.Speakercontainer .Speakerheader .Speakerheadercontainer .Speakerheaderimage{
+    
+    width: 30%;
+  
+ 
+   
+   
+}
+
+.Speakercontainer .Speakerheader .Speakerheadercontainer .Speakerheaderimage img{
+    width: 100%;
+    height: 100%;
+    margin-right: 15px;
+
+    background: #2B3513;
+ 
+
+   
+}
+
+
+
+.Speakercontainer .Speakerheader img{
+    width: 100%;
+    height: 100%;
+}
+
+.Speakercontainer .Speakertext{
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 85%;
+    margin: 0 auto;
+}
+
+.Speakercontainer .Speakertext p{
+    font-size: 18px;
+}

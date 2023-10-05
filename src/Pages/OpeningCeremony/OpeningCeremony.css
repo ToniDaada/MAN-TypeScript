@@ -1,0 +1,19 @@
+.Ceremonycontainer{
+    width: 100%;
+}
+.Ceremonycontainer .container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.Ceremonycontainer .imagecontainer{
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.Ceremonycontainer  .imagecontainer video{
+    width: 100%;
+    height: 100%;
+}

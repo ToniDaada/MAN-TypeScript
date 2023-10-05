@@ -1,0 +1,24 @@
+.Publiccontainer{
+    width: 100%;
+}
+.Publiccontainer .container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.Publiccontainer .imagecontainer{
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.Publiccontainer  .imagecontainer img{
+    width: 100%;
+    height: 100%;
+}
+.Publiccontainer  .imagecontainer video{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,41 @@
+.Venuecontainer{
+    width: 100%;
+}
+
+.Venuecontainer .top{
+    display: flex;
+    width: 95%;
+    margin: 50px auto;
+    justify-content: space-between;
+    
+}
+
+.Venuecontainer .top .img{
+        width: 45%;
+        
+
+}
+.Venuecontainer .top .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.Venuecontainer .top .text{
+    width: 30%;
+    /* border: 1px solid red; */
+    padding-left: 15px;
+
+}
+.Venuecontainer .imagecontainer{
+    width: 100%;
+
+}
+.Venuecontainer .imagecontainer img{
+    width: 100%;
+    height: 100%;
+}
+.Venuecontainer .buttoncontainer{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 200px;
+}

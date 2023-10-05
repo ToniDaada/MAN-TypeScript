@@ -1,0 +1,60 @@
+.sharedbutton{
+    border: 1px solid #2B3513;
+    width: 120px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    gap: 10px;
+    cursor: pointer;
+   color:  #717861;
+   margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+
+}
+.sharedbutton.whiteoval{
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    color:#FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+}
+.sharedbutton.darkoval{
+    border: 1px solid #2B3513;
+    background: transparent;
+    color:#2B3513;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+.sharedbutton.graybackground{
+    border: none;
+    background: #717861;
+
+    color:#FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+}
+.sharedbutton.graysquarebackground{
+    border: none;
+    background: #717861;
+
+    color:#FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+.sharedbutton.graybackground100{
+    border: none;
+    background: #717861;
+
+    color:#FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+
+}

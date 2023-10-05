@@ -1,0 +1,13 @@
+.sharedH1tag {
+    
+font-size: 34px;
+font-weight: 700;
+
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.sharedH1tag.black{
+    color: #000000;
+}
